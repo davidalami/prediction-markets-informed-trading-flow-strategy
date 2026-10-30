@@ -1,0 +1,33 @@
+{
+  "name": "five-minute-momentum-historical-fit",
+  "parameters": {
+    "hours": 12.0,
+    "end": "2026-10-30T11:34:25Z",
+    "lookback_minutes": 5,
+    "final_minutes": 60,
+    "move_pp": 5,
+    "min_volume_usd": 100,
+    "min_baseline_usd": 100,
+    "volume_multiple": 1,
+    "min_trades": 5,
+    "min_wallets": 2,
+    "notional": 5.0,
+    "slippage_bps": 100,
+    "fee_bps": 50,
+    "latency_seconds": 5,
+    "max_stale_seconds": 120,
+    "max_fill_wait_seconds": 120,
+    "max_participation": 0.1,
+    "market_pages": 100,
+    "trade_pages": 30,
+    "workers": 2,
+    "direction": "momentum",
+    "max_entry_price": 0.75
+  },
+  "selectedOn": {
+    "start": "2026-10-29T23:34:25Z",
+    "end": "2026-10-30T11:34:25Z"
+  },
+  "configurationsTested": 2592,
+  "validation": "In-sample winner only. Do not interpret as verified prospective profitability."
+}

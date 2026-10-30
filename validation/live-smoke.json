@@ -1,0 +1,27 @@
+{
+  "implementation": "rust",
+  "checkedAt": "2026-10-30T15:04:18Z",
+  "ordersEnabled": false,
+  "notificationsEnabled": false,
+  "polls": [
+    {
+      "status": "ok",
+      "baseline": true,
+      "coverageComplete": true,
+      "pages": 16,
+      "rows": 16000,
+      "feedLagSeconds": 7,
+      "alerts": 0
+    },
+    {
+      "status": "ok",
+      "baseline": false,
+      "coverageComplete": true,
+      "pages": 1,
+      "rows": 1000,
+      "feedLagSeconds": 2,
+      "alerts": 0
+    }
+  ],
+  "note": "Bounded public-API smoke check with isolated state. Latency varies; no eligible alerts were generated."
+}

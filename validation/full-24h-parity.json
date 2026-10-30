@@ -1,0 +1,31 @@
+{
+  "sourceCapture": "20261030T133039Z-24h-frozen",
+  "sourceRawSha256": "2f3dd9ee46b69d34bfd59f211b4a800f350a1f777a632570e12af5db365721bc",
+  "window": {
+    "start": "2026-10-29T13:30:39Z",
+    "end": "2026-10-30T13:30:39Z"
+  },
+  "strategyFingerprint": "7e88e784b61d9fb406856a1945d5edc5440acfbd9893d86f2b2228c100ad37ac",
+  "fullUniverseMarkets": 26169,
+  "sourceTradeRows": 1051158,
+  "exactSummaryMatch": true,
+  "exactTradeFieldsMatch": true,
+  "exactSkipCountsMatch": true,
+  "summary": {
+    "entries": 12,
+    "investedUsd": 60.0,
+    "marked": 0,
+    "marketsDiscovered": 26169,
+    "settled": 12,
+    "settledWinRate": 0.9166666666666666,
+    "unpriced": 0,
+    "valuedPnlUsd": 23.48526089333893,
+    "valuedRoiPct": 39.14210148889821
+  },
+  "outsideFittingWindow": {
+    "trades": 7,
+    "investedUsd": 35,
+    "pnlUsd": 10.601346986623328
+  },
+  "note": "Full capture is external; bundled 12-market fixture is for regression only."
+}

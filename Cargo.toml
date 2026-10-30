@@ -1,0 +1,24 @@
+[package]
+name = "informed-trader-flow"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Read-only Polymarket late-flow strategy, replay, and alert monitor"
+license = "MIT"
+repository = "https://github.com/davidalami/prediction-markets-informed-trading-flow-strategy"
+publish = false
+
+[dependencies]
+anyhow = "1"
+chrono = "0.4"
+clap = { version = "4", features = ["derive"] }
+ctrlc = "3"
+fs2 = "0.4"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+rust_decimal = { version = "1", default-features = false, features = ["std"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
+sha2 = "0.10"
+
+[dev-dependencies]
+tempfile = "3"
